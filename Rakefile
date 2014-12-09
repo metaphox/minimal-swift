@@ -1,3 +1,5 @@
+#many thanks to https://github.com/sharplet/minimal-swift
+
 directory "build"
 
 desc "Build the Foobar module"
@@ -39,4 +41,4 @@ task :clean do
   rm_f "main"
 end
 
-task :default => "main"
+task :default => "test"
